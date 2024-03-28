@@ -1,4 +1,4 @@
-from Quaternion import Quaternion
+from Quaternion.Quaternion import Quaternion
 import matplotlib.pyplot as plt
 import numpy as np
 

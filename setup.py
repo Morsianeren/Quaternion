@@ -13,21 +13,20 @@ with open('requirements.txt', encoding='UTF-8') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name = "an_example_pypi_project",
-    version = "0.0.4",
-    author = "Andrew Carter",
-    author_email = "andrewjcarter@gmail.com",
-    description = ("An demonstration of how to create, document, and publish "
-                                   "to the cheese shop a5 pypi.org."),
-    license = "BSD",
-    keywords = "example documentation tutorial",
-    url = "http://packages.python.org/an_example_pypi_project",
-    packages=['an_example_pypi_project', 'tests'],
-    long_description=read('README'),
+    name = "Quaternion",
+    version = "1.0.0",
+    author = "Magnus B. Klokker",
+    author_email = "magnusklokker@hotmail.com",
+    description = ("A package to handle quaternions"),
+    license = "MIT",
+    keywords = "quaternion",
+    url = "https://github.com/Morsianeren/Quaternion",
+    packages=['Quaternion'],
+    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: MIT License",
     ],
     install_requires = requirements,
 )
